@@ -53,3 +53,67 @@ Create a config.js file in api folder inside src folders. In config.js file writ
 Everyone is welcomed to contribute to this project. You can contribute either by submitting bugs or suggesting improvements by opening an issue on GitHub. Please see the [CONTRIBUTING](CONTRIBUTING.md) guidelines for more information.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### se adiciona lineas actividad 1 integracion continua -  marzo del 2026
+--
+
+## Development Environment Setup
+
+### IDE: Visual Studio Code
+
+The team uses **Visual Studio Code (VSCode)** as the standard IDE for this project. It is lightweight, highly extensible, and has excellent support for React and JavaScript development.
+
+#### Installing VSCode
+
+1. Go to [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Download the installer for your operating system (Windows, macOS, or Linux)
+3. Run the installer and follow the on-screen instructions
+4. Launch VSCode once installation is complete
+
+#### Recommended Extensions
+
+Install the following extensions to improve your development experience on this project:
+
+| Extension | ID | Purpose |
+|---|---|---|
+| **ESLint** | `dbaeumer.vscode-eslint` | Highlights JavaScript/React linting errors in real time |
+| **Prettier - Code Formatter** | `esbenp.prettier-vscode` | Enforces consistent code formatting across the team |
+| **ES7+ React/Redux/React-Native snippets** | `dsznajder.es7-react-js-snippets` | Provides handy shortcuts to scaffold React components and hooks |
+| **Auto Rename Tag** | `formulahendry.auto-rename-tag` | Automatically renames the matching HTML/JSX closing tag |
+| **Path IntelliSense** | `christian-kohler.path-intellisense` | Autocompletes file paths in import statements |
+| **GitLens** | `eamodio.gitlens` | Enhances Git integration with inline blame, history, and diff views |
+| **Bracket Pair Color DLW** | `BracketPairColorDLW.bracket-pair-color-dlw` | Colors matching brackets to improve JSX readability |
+
+#### Installing Extensions
+
+You can install any extension directly from within VSCode:
+
+1. Open VSCode
+2. Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS) to open the Extensions panel
+3. Search for the extension by name or ID
+4. Click **Install**
+
+Alternatively, install all recommended extensions at once from the terminal:
+
+```bash
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension christian-kohler.path-intellisense
+code --install-extension eamodio.gitlens
+code --install-extension BracketPairColorDLW.bracket-pair-color-dlw
+```
+
+#### Suggested Workspace Settings
+
+Create a `.vscode/settings.json` file at the root of the project with the following content to keep formatting consistent:
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript", "javascriptreact"]
+}
+```
